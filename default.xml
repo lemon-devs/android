@@ -771,7 +771,10 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
+  <!-- Lemon staff -->
   <project path="patcher" name="patcher" remote="lemon" revision="master" />
+  <project path="vendor_lemon" name="vendor/lemon" remote="lemon" />
+  <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="lemon" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
