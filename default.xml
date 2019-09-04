@@ -773,7 +773,7 @@
 
   <!-- Lemon staff -->
   <project path="patcher" name="patcher" remote="lemon" revision="master" />
-  <project path="vendor_lemon" name="vendor/lemon" remote="lemon" />
+  <project path="vendor/lemon" name="vendor_lemon" remote="lemon" />
   <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="lemon" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
